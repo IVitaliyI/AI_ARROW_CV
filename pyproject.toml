@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ai-arrow-cv"
+version = "0.1.0"
+description = "the course CV AI-ARROW"
+authors = ["Vitaliy Davydov <ychebn1y@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.17.0"
+opencv-python = "^4.10.0.84"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.2"
+notebook = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
